@@ -1,0 +1,68 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ==============================
+# Conda / Virtual Environments
+# ==============================
+.env
+.venv
+venv/
+conda_envs/
+*.conda
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# OS / Editor
+# ==============================
+.DS_Store
+.vscode/
+.idea/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Data (IMPORTANT)
+# ==============================
+# Raw and processed data should NOT be committed
+feedback-training-service/data/raw/
+feedback-training-service/data/processed/
+
+# ==============================
+# Model Artifacts
+# ==============================
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# ==============================
+# MLflow
+# ==============================
+mlruns/
+
+# ==============================
+# Docker
+# ==============================
+*.tar
+
+# ==============================
+# Temporary / Scratch
+# ==============================
+tmp/
+scratch/
